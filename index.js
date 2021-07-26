@@ -7,7 +7,7 @@ app.listen(8080, () => {
 });
 
 app.get("/", (req, res) => {
-  res.json({ message: "Api is working fine" });
+  res.json({ message: "Api is working... " });
 });
 
 app.get("/api/students", (req, res) => {
