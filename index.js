@@ -15,15 +15,15 @@ app.get("/api/students", (req, res) => {
 });
 
 app.post("/api/students", (req, res) => {
-  if (!req.body.email) {
+  if (!req.body.userId) {
     res.status(400);
     return res.json({ message: "email is required" });
   }
   const user = {
-    id: students.length + 1,
-    first_name: req.body.first_name,
-    last_name: req.body.last_name,
-    email: req.body.email,
+    userId: req.body.userId,
+    ethAddress: req.body.ethAddress,
+    facebookId: req.body.facebookId,
+    twitterHandle: req.body.twitterHandle,
   };
   students.push(user);
   console.log(req.body);

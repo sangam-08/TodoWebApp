@@ -1,64 +1,53 @@
-const students = [
-  {
-    id: 1,
-    first_name: "Carline",
-    last_name: "Starkie",
-    email: "cstarkie0@flickr.com",
-  },
-  {
-    id: 2,
-    first_name: "Tammi",
-    last_name: "Fessby",
-    email: "tfessby1@arizona.edu",
-  },
-  {
-    id: 3,
-    first_name: "Mar",
-    last_name: "Benson",
-    email: "mbenson2@so-net.ne.jp",
-  },
-  {
-    id: 4,
-    first_name: "Damon",
-    last_name: "Marfe",
-    email: "dmarfe3@yahoo.com",
-  },
-  {
-    id: 5,
-    first_name: "Nathalia",
-    last_name: "Normanton",
-    email: "nnormanton4@hp.com",
-  },
-  {
-    id: 6,
-    first_name: "Virginie",
-    last_name: "Kings",
-    email: "vkings5@eventbrite.com",
-  },
-  {
-    id: 7,
-    first_name: "Nonie",
-    last_name: "Sinclar",
-    email: "nsinclar6@fda.gov",
-  },
-  {
-    id: 8,
-    first_name: "Ina",
-    last_name: "Bruce",
-    email: "ibruce7@pcworld.com",
-  },
-  {
-    id: 9,
-    first_name: "Jacques",
-    last_name: "Abbs",
-    email: "jabbs8@nbcnews.com",
-  },
-  {
-    id: 10,
-    first_name: "Ferrel",
-    last_name: "Dalziell",
-    email: "fdalziell9@mtv.com",
-  },
-];
-
+const students = [{
+    "userId": 1,
+    "ethAddress": "Matthaeus",
+    "facebookId": "Gourdon",
+    "twitterHandle": "mgourdon0@barnesandnoble.com"
+  }, {
+    "userId": 2,
+    "ethAddress": "George",
+    "facebookId": "Westby",
+    "twitterHandle": "gwestby1@abc.net.au"
+  }, {
+    "userId": 3,
+    "ethAddress": "Joshua",
+    "facebookId": "Thresh",
+    "twitterHandle": "jthresh2@paginegialle.it"
+  }, {
+    "userId": 4,
+    "ethAddress": "Krishnah",
+    "facebookId": "Foskett",
+    "twitterHandle": "kfoskett3@reddit.com"
+  }, {
+    "userId": 5,
+    "ethAddress": "Kyla",
+    "facebookId": "Buxton",
+    "twitterHandle": "kbuxton4@fema.gov"
+  }, {
+    "userId": 6,
+    "ethAddress": "Sybilla",
+    "facebookId": "Swoffer",
+    "twitterHandle": "sswoffer5@mac.com"
+  }, {
+    "userId": 7,
+    "ethAddress": "Alex",
+    "facebookId": "Clyant",
+    "twitterHandle": "aclyant6@bigcartel.com"
+  }, {
+    "userId": 8,
+    "ethAddress": "Winthrop",
+    "facebookId": "Bonefant",
+    "twitterHandle": "wbonefant7@dell.com"
+  }, {
+    "userId": 9,
+    "ethAddress": "Octavius",
+    "facebookId": "Zorzoni",
+    "twitterHandle": "ozorzoni8@dot.gov"
+  }, {
+    "userId": 10,
+    "ethAddress": "Ancell",
+    "facebookId": "Ricca",
+    "twitterHandle": "aricca9@princeton.edu"
+  }]
+  
 module.exports = students;
