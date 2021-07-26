@@ -18,6 +18,7 @@
   "homepage": "https://github.com/sangam-kumar-08/TodoWebApp#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "hypersign-auth-js-sdk": "^2.0.4",
     "nodemon": "^2.0.12"
   }
 }
